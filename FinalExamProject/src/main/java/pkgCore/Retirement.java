@@ -9,7 +9,49 @@ public class Retirement {
 	private double dRequiredIncome;
 	private double dMonthlySSI;
 	
-	//TODO: Build the contructor, getters and setters for the attributes above.
+	// constructor 
+	Retirement(int iYearsToWork, double dAnnualReturnWorking, int iYearsRetired, double dAnnualReturnRetired, double dRequiredIncome, double dMonthlySSI){
+		iYearsToWork = this.iYearsToWork;
+		dAnnualReturnWorking = this.dAnnualReturnWorking;
+		iYearsRetired = this.iYearsRetired;
+		dAnnualReturnRetired = this.dAnnualReturnRetired;
+		dRequiredIncome = this.dRequiredIncome;
+		dMonthlySSI = this.dMonthlySSI;
+	}
+	
+	// getters and setters	
+	public int getiYearsToWork() {
+		return iYearsToWork;
+	}
+	public void setiYearsToWork(int iYearsToWork) {
+		this.iYearsToWork = iYearsToWork;
+	}
+	
+	public int getiYearsRetired() {
+		return iYearsRetired;
+	}
+	public void setiYearsRetired(int iYearsRetired) {
+		this.iYearsRetired = iYearsRetired;
+	}
+	public double getdAnnualReturnRetired() {
+		return dAnnualReturnRetired;
+	}
+	public void setdAnnualReturnRetired(double dAnnualReturnRetired) {
+		this.dAnnualReturnRetired = dAnnualReturnRetired;
+	}
+	public double getdRequiredIncome() {
+		return dRequiredIncome;
+	}
+	public void setdRequiredIncome(double dRequiredIncome) {
+		this.dRequiredIncome = dRequiredIncome;
+	}
+	public double getdMonthlySSI() {
+		return dMonthlySSI;
+	}
+	public void setdMonthlySSI(double dMonthlySSI) {
+		this.dMonthlySSI = dMonthlySSI;
+	}
+	
 	
 	public double AmountToSave()
 	{
