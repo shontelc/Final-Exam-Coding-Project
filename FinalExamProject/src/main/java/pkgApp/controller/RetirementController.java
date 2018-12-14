@@ -15,10 +15,15 @@ public class RetirementController implements Initializable {
 	
 	@FXML
 	private TextField txtYearsToWork;
+	@FXML
 	private TextField txtAnnualReturn;
+	@FXML
 	private TextField txtYearsRetired;
+	@FXML
 	private TextField txtAnnualReturnRetired;
+	@FXML
 	private TextField txtRequiredIncome;
+	@FXML
 	private TextField txtMonthlySSI;
 
 	public RetirementApp getMainApp() {
@@ -43,14 +48,13 @@ public class RetirementController implements Initializable {
 		txtMonthlySSI.clear();
 		System.out.println("Clear pressed");
 		
-		//	TODO: Clear all the text inputs
 	}
-	
+
 	@FXML
 	public void btnCalculate(ActionEvent event) {
 		
 		//	TODO: Call AmountToSave and TotalAmountSaved and populate 
 		
 	}
-	
+
 }
